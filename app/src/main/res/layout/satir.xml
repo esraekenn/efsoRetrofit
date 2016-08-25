@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#669be6c7">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/image2"
+        android:layout_height="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="10dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:hint="Kullanıcı İsmi"
+        android:textColor="#993366"
+        android:layout_toRightOf="@+id/image2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/kullanici_ismi2"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#9999FF"
+       android:hint="Blog"
+        android:id="@+id/blog"
+        android:layout_toRightOf="@+id/image2"
+        android:layout_alignLeft="@+id/kullanici_ismi2"
+        android:layout_alignStart="@+id/kullanici_ismi2"
+        android:layout_marginTop="40dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#CC0033"
+        android:hint="Lokasyon"
+        android:id="@+id/lokasyon"
+        android:layout_toRightOf="@+id/image2"
+        android:layout_alignLeft="@+id/blog"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="60dp"
+
+        />
+</RelativeLayout>
